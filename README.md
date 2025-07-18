@@ -4,7 +4,6 @@ A fast, private, and easy-to-use browser-based tool to generate QR codes for Wi-
 
 ➡️ **[https://wifi-qrcode-generator.netlify.app/](#)** 
 
----
 
 ## ✨ Features
 
@@ -14,7 +13,6 @@ A fast, private, and easy-to-use browser-based tool to generate QR codes for Wi-
 - **Easy Download:** Download the generated QR code as a PNG image to print or share.
 - **User-Friendly:** Clean, modern interface that works on desktop and mobile.
 
----
 
 ## 🚀 How to Use
 
@@ -24,7 +22,6 @@ A fast, private, and easy-to-use browser-based tool to generate QR codes for Wi-
 4. **Download:** Click "Download QR Image" to save the QR code as a PNG file.
 5. **Share or Print:** Share the QR code or print it for guests to scan and connect instantly.
 
----
 
 ## 💻 Run Locally
 
@@ -32,14 +29,12 @@ A fast, private, and easy-to-use browser-based tool to generate QR codes for Wi-
 2. **Open `index.html`:** Double-click the file or open it in your preferred web browser.
 3. **No Installation Needed:** Everything runs in your browser—no server or setup required.
 
----
 
 ## 🧱 Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript
 - **QR Code Generation:** [qrcode.js](https://github.com/davidshimjs/qrcodejs)
 
----
 
 ## 📄 About This Project
 
