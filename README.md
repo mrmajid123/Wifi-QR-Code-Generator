@@ -1,44 +1,48 @@
- Wi-Fi QR Connect
-Wi-Fi QR Connect is a fast and privacy-focused web tool that lets you generate QR codes for your Wi-Fi network in seconds. With just a few clicks, anyone can connect to your Wi-Fi—no password typing required. Best of all, everything happens in your browser, so your network details stay completely private.
+# Wi-Fi QR Connect
 
-👉 Live App: wifi-qrcode-generator.netlify.app
+A fast, private, and easy-to-use browser-based tool to generate QR codes for Wi-Fi network credentials. Instantly create a QR code that lets anyone connect to your Wi-Fi without typing the password. All processing is done on your device—your Wi-Fi details are never uploaded to a server.
 
-✨ Key Features
-🔒 Private by Design: Your Wi-Fi credentials never leave your device. Everything is processed locally in your browser.
+➡️ **[https://wifi-qrcode-generator.netlify.app/](#)** 
 
-⚡ Instant QR Generation: Create a QR code within seconds—no setup, no waiting.
+---
 
-🛡️ Supports All Security Types: Works with WPA/WPA2, WEP, and open networks.
+## ✨ Features
 
-📲 Easy to Share: Download your QR code as a PNG file and print or send it to anyone.
+- **Instant QR Generation:** Create a QR code for your Wi-Fi network in seconds.
+- **Completely Private:** All QR code generation happens in your browser. Your Wi-Fi info never leaves your computer.
+- **Multiple Security Types:** Supports WPA/WPA2, WEP, and open (no password) networks.
+- **Easy Download:** Download the generated QR code as a PNG image to print or share.
+- **User-Friendly:** Clean, modern interface that works on desktop and mobile.
 
-🧑‍💻 Simple and Clean UI: Designed to work smoothly on both desktop and mobile devices.
+---
 
-🚀 How It Works
-Open the web app or run index.html locally in your browser.
+## 🚀 How to Use
 
-Enter your Wi-Fi network name (SSID), password, and select the security type.
+1. **Open the Web App:** Open the `index.html` file in your browser, or visit the live demo link above.
+2. **Enter Details:** Type your Wi-Fi network name (SSID), password, and select the security type.
+3. **Generate QR:** Click the "Generate QR Code" button.
+4. **Download:** Click "Download QR Image" to save the QR code as a PNG file.
+5. **Share or Print:** Share the QR code or print it for guests to scan and connect instantly.
 
-Click "Generate QR Code" to instantly see your code.
+---
 
-Use the "Download QR Image" button to save and share it.
+## 💻 Run Locally
 
-Print or display the QR code for easy Wi-Fi access.
+1. **Download the Files:** Clone or download this repository.
+2. **Open `index.html`:** Double-click the file or open it in your preferred web browser.
+3. **No Installation Needed:** Everything runs in your browser—no server or setup required.
 
-💻 Run Locally (Optional)
-Download or clone the project files.
+---
 
-Open the index.html file in any browser.
+## 🧱 Tech Stack
 
-That’s it—no installation or internet connection required.
+- **Frontend:** HTML, CSS, JavaScript
+- **QR Code Generation:** [qrcode.js](https://github.com/davidshimjs/qrcodejs)
 
-🛠 Tech Stack
-HTML, CSS, JavaScript – For building a responsive and lightweight interface
+---
 
-qrcode.js – For generating the QR code
+## 📄 About This Project
 
-📌 About the Project
-This tool was built with simplicity and privacy in mind. Whether you’re hosting guests at home, managing a small business, or setting up a public hotspot, Wi-Fi QR Connect helps you share your Wi-Fi securely—without handing out your password every time.
+This project was created to make sharing Wi-Fi access as easy and secure as possible. Whether you're at home, in the office, or running a business, you can generate a QR code for your Wi-Fi and let guests connect instantly—no more typing long passwords!
 
-🧑‍💻 Developed by Abdul Majid
-Feel free to use, share, or improve this project!
+**Programmed By Abdul Majid** 

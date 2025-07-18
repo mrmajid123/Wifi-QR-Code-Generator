@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wi-Fi QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-bg">
+        <div class="card">
+            <header class="card-header">
+                <div class="icon-circle">
+                   <!-- Smaller Wi-Fi Icon in Black (32x32) -->
+<svg viewBox="0 0 32 32" width="32" height="32" xmlns="http://www.w3.org/2000/svg" fill="none">
+    <!-- Outer arc -->
+    <path d="M4 12c6.625-6.625 17.375-6.625 24 0" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  
+    <!-- Middle arc -->
+    <path d="M8 16c4.42-4.42 11.58-4.42 16 0" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  
+    <!-- Inner arc -->
+    <path d="M12 20c2.21-2.21 5.79-2.21 8 0" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  
+    <!-- Signal dot -->
+    <circle cx="16" cy="26" r="2.5" fill="#000"/>
+  </svg>
+  
+                </div>
+                <div>
+                    <h1>Wi-Fi QR Code Generator</h1>
+                    <p class="subtitle">Easily share your Wi-Fi with a QR code</p>
+                </div>
+            </header>
+            <main>
+                <form id="wifi-form" autocomplete="off">
+                    <div class="form-group floating-label">
+                        <input type="text" id="ssid" required placeholder=" ">
+                        <label for="ssid">Wi-Fi Name (SSID)</label>
+                    </div>
+                    <div class="form-group floating-label">
+                        <input type="password" id="password" placeholder=" " autocomplete="new-password">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="form-group floating-label">
+                        <select id="security" required>
+                            <option value="WPA" selected>WPA/WPA2</option>
+                            <option value="WEP">WEP</option>
+                            <option value="nopass">None (Open Network)</option>
+                        </select>
+                        <label for="security">Security Type</label>
+                    </div>
+                    <button id="generate-btn" type="button">
+                        <span class="btn-icon">
+                           <!-- Smaller Wi-Fi Icon in Black (32x32) -->
+<svg viewBox="0 0 32 32" width="32" height="32" xmlns="http://www.w3.org/2000/svg" fill="none">
+    <!-- Outer arc -->
+    <path d="M4 12c6.625-6.625 17.375-6.625 24 0" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  
+    <!-- Middle arc -->
+    <path d="M8 16c4.42-4.42 11.58-4.42 16 0" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  
+    <!-- Inner arc -->
+    <path d="M12 20c2.21-2.21 5.79-2.21 8 0" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  
+    <!-- Signal dot -->
+    <circle cx="16" cy="26" r="2.5" fill="#000"/>
+  </svg>
+  
+  
+  
+
+  
+                        </span>
+                        Generate QR Code
+                    </button>
+                </form>
+                <div id="qr-code-container" class="qr-code-container">
+                    <div id="qrcode"></div>
+                    <a id="download-btn" class="download-btn" style="display:none;">Download QR Image</a>
+                </div>
+            </main>
+            <footer>
+                <p>Made by Abdul Majid</p>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
